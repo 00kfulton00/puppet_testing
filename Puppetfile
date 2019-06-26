@@ -13,6 +13,7 @@ mod 'puppetlabs-puppet_agent', '1.7.0'
 mod 'puppetlabs-inifile', '2.4.0'
 mod 'puppetlabs-scheduled_task', '1.0.0'
 mod 'claranet-varnish', '5.1.0'
+mod 'puppet-zabbix', '6.7.0'
 
 
 

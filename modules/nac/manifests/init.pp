@@ -6,9 +6,6 @@ class nac (
   class { 'python':
     version     => '36',
     pip         => 'latest',
-    dev         => 'absent',
-    virtualenv  => 'absent',
-    gunicorn    => 'absent',
     }
     
     python::pip { 'packaging' :

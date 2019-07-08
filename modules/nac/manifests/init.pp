@@ -4,7 +4,7 @@ class nac (
   include zabbix::sender
   
   class { 'python':
-    ensure      => 'python34',
+    ensure      => 'python33',
     pip         => 'latest',
     dev         => 'absent',
     virtualenv  => 'absent',

@@ -5,7 +5,7 @@ class nac (
   
   class { 'python':
     version     => '3.7.0',
-    pip         => '19.1.1',
+    pip         => 'latest',
     dev         => 'absent',
     virtualenv  => 'absent',
     gunicorn    => 'absent',

@@ -15,6 +15,7 @@ mod 'puppetlabs-scheduled_task', '1.0.0'
 mod 'claranet-varnish', '5.1.0'
 mod 'puppet-zabbix', '6.7.0'
 mod 'puppet-python', '3.0.1'
+mod 'stahnma-epel', '1.3.1'
 
 
 

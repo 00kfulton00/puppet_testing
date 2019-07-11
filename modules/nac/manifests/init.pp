@@ -13,5 +13,3 @@ class { 'python':
     pkgname => 'packaging',
   }
 }
-
- }

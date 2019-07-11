@@ -16,7 +16,6 @@ mod 'claranet-varnish', '5.1.0'
 mod 'puppet-zabbix', '6.7.0'
 mod 'puppet-python', '3.0.1'
 mod 'stahnma-epel', '1.3.1'
-mod 'Siebjee-python', '0.2.3'
 
 
 

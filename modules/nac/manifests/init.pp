@@ -3,12 +3,15 @@ class nac (
 ) {
   include zabbix::sender
  
- class {'python':
-    python_version => '3.6.8',
+class { 'python':
+    version => '36',
+    pip     => 'latest',
   }
 
-  python::pip {'packaging':
-    python_version => '3',
+  python::pip { 'packaging' :
+    ensure  => '19.0',
     pkgname => 'packaging',
   }
+}
+
  }
